@@ -1,0 +1,47 @@
+
+.part1{
+    min-height: 100vh;
+    background: url('back.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.part1 .content p{
+    font-size: 20px;
+    font-weight: 500;
+}
+  button{
+    color: #fff;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: white;
+    color: black;
+  }
+  .content{
+    columns: #fff;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+    margin: 20px;
+  }
+  .part1 h1{
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+  }  
+
+  @media screen and (max-width: 600px) {
+    .part1 h1{
+      font-size: 36px;
+      line-height: 50px;
+    }
+  }
